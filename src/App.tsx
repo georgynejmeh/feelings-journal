@@ -54,7 +54,7 @@ const EmotionSelector = ({
           {emotion.name === "Remove ❌" ? (
             <button
               className="flex items-center justify-center w-28 h-10 p-2 border-2 rounded-lg cursor-pointer border-red-600"
-              onClick={() => onEmotionRemove}
+              onClick={onEmotionRemove}
             >
               {emotion.name}
             </button>
