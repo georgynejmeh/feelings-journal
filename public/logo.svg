@@ -1,0 +1,47 @@
+<svg width="300" height="380" xmlns="http://www.w3.org/2000/svg">
+  <!-- Define the size of each square and the gap -->
+  <defs>
+    <style>
+      .square { width: 50px; height: 50px; }
+      .gap { width: 10px; height: 10px; }
+    </style>
+  </defs>
+  
+  <!-- Grid of squares with emotions colors -->
+  <g>
+    <!-- First row -->
+    <!-- <rect x="10" y="10" width="50" height="50" fill="white" /> -->
+    <rect x="70" y="10" width="50" height="50" fill="yellow" />
+    <rect x="130" y="10" width="50" height="50" fill="darkblue" />
+    <rect x="190" y="10" width="50" height="50" fill="darkgreen" />
+    <rect x="250" y="10" width="50" height="50" fill="darkred" />
+    
+    <!-- Second row -->
+    <rect x="10" y="70" width="50" height="50" fill="purple" />
+    <rect x="70" y="70" width="50" height="50" fill="pink" />
+    <rect x="130" y="70" width="50" height="50" fill="darkorange" />
+    <rect x="190" y="70" width="50" height="50" fill="yellow" />
+    <rect x="250" y="70" width="50" height="50" fill="darkblue" />
+    
+    <!-- Third row -->
+    <rect x="10" y="130" width="50" height="50" fill="darkgreen" />
+    <rect x="70" y="130" width="50" height="50" fill="darkred" />
+    <rect x="130" y="130" width="50" height="50" fill="purple" />
+    <rect x="190" y="130" width="50" height="50" fill="pink" />
+    <rect x="250" y="130" width="50" height="50" fill="darkorange" />
+    
+    <!-- Fourth row -->
+    <rect x="10" y="190" width="50" height="50" fill="yellow" />
+    <rect x="70" y="190" width="50" height="50" fill="darkblue" />
+    <rect x="130" y="190" width="50" height="50" fill="darkgreen" />
+    <rect x="190" y="190" width="50" height="50" fill="darkred" />
+    <rect x="250" y="190" width="50" height="50" fill="purple" />
+    
+    <!-- Fifth row -->
+    <rect x="10" y="250" width="50" height="50" fill="pink" />
+    <rect x="70" y="250" width="50" height="50" fill="darkorange" />
+    <rect x="130" y="250" width="50" height="50" fill="yellow" />
+    <rect x="190" y="250" width="50" height="50" fill="darkblue" />
+    <!-- <rect x="250" y="250" width="50" height="50" fill="white" /> -->
+  </g>
+</svg>
