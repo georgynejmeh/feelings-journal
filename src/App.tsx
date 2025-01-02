@@ -48,7 +48,7 @@ const EmotionSelector = ({
   onEmotionRemove,
 }: EmotionSelectorProps) => {
   return (
-    <div className="flex gap-4 mt-4">
+    <div className="flex justify-center flex-wrap gap-4 mt-4">
       {emotions.map((emotion, index) => (
         <div key={index} className="flex items-center">
           {emotion.name === "Remove ❌" ? (
