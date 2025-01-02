@@ -28,8 +28,8 @@ const Square = ({
 }: SquareProps) => {
   return (
     <div
-      className={`w-10 h-10 cursor-pointer border border-gray-300 ${
-        isSelected ? "border-4 border-blue-500" : ""
+      className={`w-10 h-10 cursor-pointer border ${
+        isSelected ? "border-4 border-blue-500" : "border-gray-300"
       } ${isDisabled ? "cursor-not-allowed opacity-15" : ""}`}
       style={{ backgroundColor: color }}
       onClick={() => !isDisabled && onClick(index)}
