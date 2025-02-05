@@ -78,7 +78,10 @@ const EmotionSelector = ({
 
 const App = () => {
   const today = new Date();
-  const currentDayIndex = today.getDate() - 1;
+  const startOfYear = new Date(today.getFullYear(), 0, 0);
+  const diff = today.getTime() - startOfYear.getTime();
+  const oneDay = 1000 * 60 * 60 * 24;
+  const currentDayIndex = Math.floor(diff / oneDay) - 1;
 
   const [isDarkMode, setIsDarkMode] = useState<boolean>(() => {
     const savedMode = localStorage.getItem("darkMode");
